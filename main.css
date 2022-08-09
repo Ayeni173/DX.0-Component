@@ -52,3 +52,29 @@
 .blue {
     background: #87cee8;
 }
+
+.working-with-box-model {
+    border: 3px solid tomato;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent1 {
+    background: #d9d9d9;
+    height: 300px;
+    width: 400px;
+}
+
+.parent2 {
+    background: #000;
+    height: 300px;
+    width: 400px;
+}
+
+.box-model-child {
+    background: tomato;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
