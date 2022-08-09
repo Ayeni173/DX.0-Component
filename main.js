@@ -28,16 +28,32 @@ function popsomething() {
 }
 
 var rightdiv = document.querySelector('#right-holder')
-console.log(rightdiv)
+// console.log(rightdiv)
 
-function changeTO_Orange() {
-    rightdiv.style.background = "#ffa800"
+// function changeTO_Orange() {
+//     rightdiv.style.background = "#ffa800"
+// }
+
+// function changeTo_Red() {
+//     rightdiv.style.background ='red'
+// }
+
+// function changeTo_gray() {
+//     rightdiv.style.background ='gray'
+// }
+
+// Method 2 --- using parameters and argument
+
+function printsomething(yourwriteup) {
+    console.log(yourwriteup)
 }
 
-function changeTo_Red() {
-    rightdiv.style.background ='red'
+printsomething('say my name')
+printsomething('call me zaddy')
+printsomething('where is my agbado')
+
+function ChangeColor(particularcolor) {
+    rightdiv.style.background = particularcolor
 }
 
-function changeTo_gray() {
-    rightdiv.style.background ='gray'
-}
+// changeColor('red')
