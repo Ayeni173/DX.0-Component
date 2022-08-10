@@ -4,6 +4,73 @@
     box-sizing: border-box;
 }
 
+/* working-with-before-and-pseudo-element */
+.working-with-before-and-pseudo-element {
+    border: 3px solid tomato;
+    margin: 40px 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+h1::after {
+    content: "I am after element";
+    background: tomato;
+    height: 30px;
+    width: 50px;
+}
+
+.working-with-before-and-pseudo-element h1 {
+    border: 2px solid black;
+}
+
+h1::before {
+    content: "Before element";
+    color: tomato;
+    margin-right: 20px;
+}
+
+/* WORKING WITH COMBINATORS */
+.working-with-css-combinators {
+    border: 3px solid black;
+    margin: 40px 0;
+}
+
+/* we have 4 basic selectors in css */
+/* Decendant selector (space) */
+/* Child selector (>) */
+/* Adjacnt selector (+) */
+/* General sibling selector (~) */
+
+/* Using Adjacent selector*/
+.working-with-css-combinators div {
+    background: tomato;
+}
+
+.working-with-css-combinators p {
+    background: blue;
+}
+
+/* Using Child selectors */
+div>p {
+    color: tomato;
+}
+
+/* WOrking with Mixing Combinator */
+.working-with-css-combinators div>p {
+    color: tomato;
+}
+
+/* Working with Sibling selectors (+) */
+div+p {
+    background: #d9d9d9 !important;
+}
+
+/* General Sibling selecto (~) */
+div~p {
+    background: #d9d9d9 !important;
+}
+
+
 .color-changer-project {
     padding-top: 60px;
     /* border: 3px solid black; */
@@ -106,6 +173,3 @@
     align-items: center;
 }
 
-.working-with-css-combinators {
-    
-}
