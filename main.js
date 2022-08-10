@@ -1,3 +1,5 @@
+
+
 // document.getElementById('orangediv')
 
 var seconddiv = document.getElementById('orangediv')
@@ -57,3 +59,17 @@ function ChangeColor(particularcolor) {
 }
 
 // changeColor('red')
+
+
+// Hanburger menu JS
+var Hamburgermenuholder = document.querySelector('.menubar-holder')
+
+console.log(Hamburgermenuholder)
+
+// Adding a class to our html element
+
+// Hanburgermenuholder.classlist.add('purplemenu')
+
+function changeclass() {
+    Hamburgermenuholder.classList.toggle('purplemenu')
+}
