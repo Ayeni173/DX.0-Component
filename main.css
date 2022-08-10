@@ -78,3 +78,20 @@
     height: 100px;
     margin-right: 20px;
 }
+
+/* Working with flex row */
+.working-with-flex-row {
+    border: 3px solid tomato;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flexchild {
+    width: 80px;
+    height: 80px;
+    background: tomato;
+    border: 2px solid black;
+}
