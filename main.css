@@ -95,3 +95,17 @@
     background: tomato;
     border: 2px solid black;
 }
+
+.working-with-flex-column {
+    border: 3px solid red;
+    height: 280px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working-with-css-combinators {
+    
+}
